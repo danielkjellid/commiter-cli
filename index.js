@@ -41,9 +41,9 @@ const run = async () => {
     const token = await getGithubToken()
     github.githubAuth(token)
 
-    commit.createCommit()
+    await commit.createCommit()
 
-    //console.log(chalk.green('All done! Changes commited and pushed.'))
+    console.log(chalk.green('All done! Changes commited and pushed.'))
 
   } catch (error) {
     if (error) {

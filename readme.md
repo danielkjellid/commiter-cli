@@ -8,5 +8,5 @@ Usage:
 
 Limitations:
 - Will only push to origin - master
-- Will not check if you've made any changes before running the add and push command
+- ~~Will not check if you've made any changes before running the add and push command~~
 - Will not handle merge conflicts

@@ -42,7 +42,7 @@ const run = async () => {
     github.githubAuth(token)
 
     // check if there has been any changes made by running git status
-    const ahead = await commit.checkIfAhead()
+    const ahead = await commit.checkIfLocalChanges()
 
     if(!ahead) {
       console.log(chalk.red('No local changes made, commit not possible.'))

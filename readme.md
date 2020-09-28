@@ -7,6 +7,6 @@ Usage:
 3. Navigate to your working directory and run `gcom` or `committer` to access the CLI
 
 Limitations:
-- Will only push to origin - master
+- ~~Will only push to origin - master~~
 - ~~Will not check if you've made any changes before running the add and push command~~
 - Will not handle merge conflicts
